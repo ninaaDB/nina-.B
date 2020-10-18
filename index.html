@@ -1,0 +1,457 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="files/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="files/css/icofont.min.css">
+    <link rel="stylesheet" type="text/css" href="files/css/responsive.css">
+    <link rel="stylesheet" type="text/css" href="files/css/style.css">
+    <link rel="stylesheet" type="text/css" href="files/css/music.css">
+    <link rel="stylesheet" type="text/css" href="files/css/animate.css">
+    <link rel="stylesheet" type="text/css" href="files/css/card.css">
+
+    <title>Movie Land</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top nav-custom">
+        <a href="#" class="navbar-brand brand-costom">S.D Tutorials</a>
+        <button class="navbar-toggler navbar-toggler-menu" type="button" data-toggle="collapse"
+            data-target="#collapse-costom">
+            <span><i class="icofont-navigation-menu"></i></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapse-costom">
+            <ul class="navbar-nav navbar-ul-costom">
+                <li class="nav-item active n_m">
+                    <a class="nav-link active" href="#home">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item n_m">
+                    <a class="nav-link" href="#footer">Log In</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown">
+                        Courses
+                    </a>
+                    <div class="dropdown-menu n_m">
+                        <a class="dropdown-item" href="#web">Web-Develop</a>
+                        <a class="dropdown-item" href="#">Security</a>
+                        <a class="dropdown-item" href="#">Framworks</a>
+                        <a class="dropdown-item" href="#">Linux</a>
+                        <a class="dropdown-item" href="#programming">Programming</a>
+                    </div>
+                </li>
+                <li class="nav-item n_m">
+                    <a class="nav-link" href="#podcast">Podcasts</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0 form-custom">
+                <input class="form-control mr-sm-2" type="search" placeholder="What ru looking for?">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+    </div>
+
+    <div class="image-header" id="home">
+        <p>
+            <h1>S.D Tutorials</h1>
+            music_name = 'AOTS.mp3';
+            let timeSpan = document.querySelector('.timespan');
+            let play = document.querySelector('#play');
+            let pre = document.querySelector('#pre');
+            let cross = document.querySelector('#cross');
+            let range = document.querySelector('#range');
+            let playImg = document.querySelector('#play-img');
+            isPlaying = false;
+            let duration = 0;
+            var playerProgress = document.querySelector('.player-progress > i');
+            let currentTime = 0;
+        </p>
+    </div>
+
+    <section class="main-body" id="programming">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="header">
+                        <a href="#" class="link-recent wow FadeIn" data-wow-delay="0.2s">Popular Tutorials</a>
+                        <a href="#" class="link-recent wow FadeIn" data-wow-delay="0.2s">New Tutorials</a>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-4 col-md-6 col-lg-6">
+                    <div class="cs-style-2">
+                        <section>
+                            <h4>Angular</h4>
+                            <div class="slide slide-top wow bounceInLeft">
+                                <div class="slide-content">Harry Stayls is a brithish singer who used to sing in
+                                    onedirection boy
+                                    band.Harry Stayls is a brithish singer who used to sing in onedirection boy band.
+                                </div>
+                                <img src="files/img/a.png" alt="next.js">
+                            </div>
+                        </section>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-4 col-md-6 col-lg-6">
+                    <div class="cs-style-2">
+                        <section>
+                            <h4>Next Js</h4>
+                            <div class="slide slide-right wow bounceInRight">
+                                <div class="slide-content">Harry Stayls is a brithish singer who used to sing in
+                                    onedirection boy
+                                    band.Harry Stayls is a brithish singer who used to sing in onedirection boy band.
+                                </div>
+                                <img src="files/img/next.jpg" alt="next.js">
+                            </div>
+                        </section>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-4 col-md-6 col-lg-6">
+                    <div class="cs-style-2">
+                        <section>
+                            <h4>Larev FrameWork</h4>
+                            <div class="slide slide-left wow bounceInLeft">
+                                <div class="slide-content">Harry Stayls is a brithish singer who used to sing in
+                                    onedirection boy
+                                    band.Harry Stayls is a brithish singer who used to sing in onedirection boy band.
+                                </div>
+                                <img src="files/img/larv.jpg" alt="next.js">
+                            </div>
+                        </section>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-4 col-md-6 col-lg-6">
+                    <div class="cs-style-2">
+                        <section>
+                            <h4>Node.js</h4>
+                            <div class="slide slide-bottom wow bounceInRight">
+                                <div class="slide-content">Harry Stayls is a brithish singer who used to sing in
+                                    onedirection boy
+                                    band.Harry Stayls is a brithish singer who used to sing in onedirection boy band.
+                                </div>
+                                <img src="files/img/node.jpg" alt="next.js">
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <srction class="new-podcast" id="podcast">
+        <div class="header-podcast">
+            <h3> **PodCasts U should Listen before Starting**</h3>
+        </div>
+        <div class="background">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-4 wow bounceInRight">
+                        <ul>
+                            <li class="li-podcast-costom"><img src="files/img/hack.png" alt="hacker">
+                                Map road to become a hacker
+                                <div class="music-custom">
+                                    <audio controls>
+                                        <source src="AOTS.mp3" type="audio/mpeg">
+                                        Your browser does not support the audio tag.
+                                    </audio>
+                                </div>
+                            </li>
+                            <li class="li-podcast-costom"><img src="files/img/hack.png" alt="hacker">
+                                Map road to become a hacker
+                                <div class="music-custom">
+                                    <audio controls>
+                                        <source src="AOTS.mp3" type="audio/mpeg">
+                                        Your browser does not support the audio tag.
+                                    </audio>
+                                </div>
+                            </li>
+                            <li class="li-podcast-costom"><img src="files/img/hack.png" alt="hacker">
+                                Map road to become a hacker
+                                <div class="music-custom">
+                                    <audio controls>
+                                        <source src="AOTS.mp3" type="audio/mpeg">
+                                        Your browser does not support the audio tag.
+                                    </audio>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-4 wow bounceInRight" data-wow-delay="0.2s">
+                        <ul>
+                            <li class="li-podcast-costom"><img src="files/img/hack.png" alt="hacker">
+                                Map road to become a hacker
+                                <div class="music-custom">
+                                    <audio controls>
+                                        <source src="AOTS.mp3" type="audio/mpeg">
+                                        Your browser does not support the audio tag.
+                                    </audio>
+                                </div>
+                            </li>
+                            <li class="li-podcast-costom"><img src="files/img/hack.png" alt="hacker">
+                                Map road to become a hacker
+                                <div class="music-custom">
+                                    <audio controls>
+                                        <source src="AOTS.mp3" type="audio/mpeg">
+                                        Your browser does not support the audio tag.
+                                    </audio>
+                                </div>
+                            </li>
+                            <li class="li-podcast-costom"><img src="files/img/hack.png" alt="hacker">
+                                Map road to become a hacker
+                                <div class="music-custom">
+                                    <audio controls>
+                                        <source src="AOTS.mp3" type="audio/mpeg">
+                                        Your browser does not support the audio tag.
+                                    </audio>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-4 wow bounceInRight" data-wow-delay="0.3s">
+                        <ul>
+                            <li class="li-podcast-costom"><img src="files/img/hack.png" alt="hacker">
+                                Map road to become a hacker
+                                <div class="music-custom">
+                                    <audio controls>
+                                        <source src="AOTS.mp3" type="audio/mpeg">
+                                        Your browser does not support the audio tag.
+                                    </audio>
+                                </div>
+                            </li>
+                            <li class="li-podcast-costom"><img src="files/img/hack.png" alt="hacker">
+                                Map road to become a hacker
+                                <div class="music-custom">
+                                    <audio controls>
+                                        <source src="AOTS.mp3" type="audio/mpeg">
+                                        Your browser does not support the audio tag.
+                                    </audio>
+                                </div>
+                            </li>
+                            <li class="li-podcast-costom"><img src="files/img/hack.png" alt="hacker">
+                                Map road to become a hacker
+                                <div class="music-custom">
+                                    <audio controls>
+                                        <source src="AOTS.mp3" type="audio/mpeg">
+                                        Your browser does not support the audio tag.
+                                    </audio>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </srction>
+
+    <section class="free-courses" id="web">
+        <div class="container">
+            <div class="header-free-course">
+                <h2>***Free Courses***</h2>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-sm-6 col-xs-12 image-main-section wow bounceInDown">
+                    <div class="row img-part">
+                        <div class="col-md-12 col-sm-12 colxs-12 img-section">
+                            <img src="files/img/node.jpg">
+                        </div>
+                        <div class="col-md-12 col-sm-12 col-xs-12 image-title">
+                            <h3>Image Title</h3>
+                        </div>
+                        <div class="col-md-12 col-sm-12 col-xs-12 image-description">
+                            <p>Lorem ipsum dolor sed do eiusmod tempor incididunt ut labore et ...</p>
+                        </div>
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <a href="#" class="btn btn-success add-cart-btn">Click to Sign In</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12 image-main-section wow bounceInDown" data-wow-delay="0.1s">
+                    <div class="row img-part">
+                        <div class="col-md-12 col-sm-12 colxs-12 img-section">
+                            <img src="files/img/a.png">
+                        </div>
+                        <div class="col-md-12 col-sm-12 col-xs-12 image-title">
+                            <h3>Image Title</h3>
+                        </div>
+                        <div class="col-md-12 col-sm-12 col-xs-12 image-description">
+                            <p>Lorem ipsum dolor sed do eiusmod tempor incididunt ut labore et ...</p>
+                        </div>
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <a href="#" class="btn btn-success add-cart-btn">Click to Sign In</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12 image-main-section wow bounceInDown" data-wow-delay="0.2s">
+                    <div class="row img-part">
+                        <div class="col-md-12 col-sm-12 colxs-12 img-section">
+                            <img src="files/img/next.jpg">
+                        </div>
+                        <div class="col-md-12 col-sm-12 col-xs-12 image-title">
+                            <h3>Image Title</h3>
+                        </div>
+                        <div class="col-md-12 col-sm-12 col-xs-12 image-description">
+                            <p>Lorem ipsum dolor sed do eiusmod tempor incididunt ut labore et ...</p>
+                        </div>
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <a href="#" class="btn btn-success add-cart-btn">Click to Sign In</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12 image-main-section wow bounceInLeft" data-wow-delay="0.3s">
+                    <div class="row img-part">
+                        <div class="col-md-12 col-sm-12 colxs-12 img-section">
+                            <img src="files/img/a.png">
+                        </div>
+                        <div class="col-md-12 col-sm-12 col-xs-12 image-title">
+                            <h3>Image Title</h3>
+                        </div>
+                        <div class="col-md-12 col-sm-12 col-xs-12 image-description">
+                            <p>Lorem ipsum dolor sed do eiusmod tempor incididunt ut labore et ...</p>
+                        </div>
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <a href="#" class="btn btn-success add-cart-btn">Click to Sign In</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12 image-main-section wow bounceInUp" data-wow-delay="0.4s">
+                    <div class="row img-part">
+                        <div class="col-md-12 col-sm-12 colxs-12 img-section">
+                            <img src="files/img/larv.jpg">
+                        </div>
+                        <div class="col-md-12 col-sm-12 col-xs-12 image-title">
+                            <h3>Image Title</h3>
+                        </div>
+                        <div class="col-md-12 col-sm-12 col-xs-12 image-description">
+                            <p>Lorem ipsum dolor sed do eiusmod tempor incididunt ut labore et ...</p>
+                        </div>
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <a href="#" class="btn btn-success add-cart-btn">Click to Sign In</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12 image-main-section wow bounceInRight" data-wow-delay="0.5s">
+                    <div class="row img-part">
+                        <div class="col-md-12 col-sm-12 colxs-12 img-section">
+                            <img src="files/img/node.jpg">
+                        </div>
+                        <div class="col-md-12 col-sm-12 col-xs-12 image-title">
+                            <h3>Image Title</h3>
+                        </div>
+                        <div class="col-md-12 col-sm-12 col-xs-12 image-description">
+                            <p>Lorem ipsum dolor sed do eiusmod tempor incididunt ut labore et ...</p>
+                        </div>
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <a href="#" class="btn btn-success add-cart-btn">Click to Sign In</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12 image-main-section wow bounceInleft">
+                    <div class="row img-part">
+                        <div class="col-md-12 col-sm-12 colxs-12 img-section">
+                            <img src="files/img/larv.jpg">
+                        </div>
+                        <div class="col-md-12 col-sm-12 col-xs-12 image-title">
+                            <h3>Image Title</h3>
+                        </div>
+                        <div class="col-md-12 col-sm-12 col-xs-12 image-description">
+                            <p>Lorem ipsum dolor sed do eiusmod tempor incididunt ut labore et ...</p>
+                        </div>
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <a href="#" class="btn btn-success add-cart-btn">Click to Sign In</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12 image-main-section wow bounceInleft" data-wow-delay="0.1s">
+                    <div class="row img-part">
+                        <div class="col-md-12 col-sm-12 colxs-12 img-section">
+                            <img src="files/img/a.png">
+                        </div>
+                        <div class="col-md-12 col-sm-12 col-xs-12 image-title">
+                            <h3>Image Title</h3>
+                        </div>
+                        <div class="col-md-12 col-sm-12 col-xs-12 image-description">
+                            <p>Lorem ipsum dolor sed do eiusmod tempor incididunt ut labore et ...</p>
+                        </div>
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <a href="#" class="btn btn-success add-cart-btn">Click to Sign In</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12 image-main-section wow bounceInleft" data-wow-delay="0.2s">
+                    <div class="row img-part">
+                        <div class="col-md-12 col-sm-12 colxs-12 img-section">
+                            <img src="files/img/next.jpg">
+                        </div>
+                        <div class="col-md-12 col-sm-12 col-xs-12 image-title">
+                            <h3>Image Title</h3>
+                        </div>
+                        <div class="col-md-12 col-sm-12 col-xs-12 image-description">
+                            <p>Lorem ipsum dolor sed do eiusmod tempor incididunt ut labore et ...</p>
+                        </div>
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <a href="#" class="btn btn-success add-cart-btn">Click to Sign In</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer-custom" id="footer">
+        <div class="search-text">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-12 col-sm-12 col-md-12 col-log-12">
+                        <div class="form">
+                            <h4>SIGN UP TO OUR NEWSLETTER</h4>
+                            <form id="search-form" class="form-search form-horizontal">
+                                <input type="text" class="input-search wow bounceInLeft" placeholder="Email Address">
+                                <button type="submit" class="btn-search wow bounceInLeft" data-wow-delay="0.1">SUBMIT</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container container-custom">
+            <div class="row text-center">
+                <div class="col-12 col-sm-12 col-md-12 col-log-12">
+                    <ul class="menu">
+
+                        <li>
+                            <a href="#">Home</a>
+                        </li>
+
+                        <li>
+                            <a href="#">About</a>
+                        </li>
+
+                        <li>
+                            <a href="#">Blog</a>
+                        </li>
+
+                        <li>
+                            <a href="#">Gallery</a>
+                        </li>
+
+                        <li>
+                            <a href="#">Contact</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+</body>
+<script type="text/javascript" src="files/js/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="files/js/wow.js"></script>
+<script type="text/javascript" src="files/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="files/js/toucheffects.js"></script>
+<script type="text/javascript" src="files/js/script.js"></script>
+
+</html>
